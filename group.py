@@ -32,3 +32,21 @@ def gerar():
     numero = int(e_total.get())
     grupos_gerados = list(chunks(Lista_de_nomes, numero))
     gerar_tabelas()
+
+#Função para gerar tabelas
+def gerar_tabelas():
+    global grupos_gerados
+    
+    r = 0
+    c = 0
+    r_linha = 0
+    n = 1
+        
+    for grupo in grupos_gerados:
+        if c == 1:
+            r = 0
+            
+        if c == 2:
+            c = 0
+            r = 0
+            r_linha += 1
