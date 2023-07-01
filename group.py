@@ -53,3 +53,6 @@ def gerar_tabelas():
 
         frame = Frame(framecanva, width=190, height=190, relief="solid", bg=co1)
         frame.grid(row=r_linha, column=c, pady=10, padx=10, sticky=NSEW)
+
+        l_grupo = Label(frame, text="Grupo - {}".format(n), width=20, justify=LEFT, anchor=NW, font=('verdana 10'), bg=co6, fg=co1)
+        l_grupo.grid(row=r, column=0)
