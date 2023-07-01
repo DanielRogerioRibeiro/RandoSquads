@@ -50,3 +50,6 @@ def gerar_tabelas():
             c = 0
             r = 0
             r_linha += 1
+
+        frame = Frame(framecanva, width=190, height=190, relief="solid", bg=co1)
+        frame.grid(row=r_linha, column=c, pady=10, padx=10, sticky=NSEW)
