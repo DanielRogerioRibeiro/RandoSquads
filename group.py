@@ -56,3 +56,12 @@ def gerar_tabelas():
 
         l_grupo = Label(frame, text="Grupo - {}".format(n), width=20, justify=LEFT, anchor=NW, font=('verdana 10'), bg=co6, fg=co1)
         l_grupo.grid(row=r, column=0)
+
+        for i in grupo:
+            r += 1
+            l_participante = Label(frame, text=i, justify=LEFT, anchor=NW, font=('verdana 8'), bg=co1, fg=co4)
+            l_participante.grid(row=r, column=0, sticky=NSEW)
+            r += 1
+        
+        c += 1
+        n += 1
