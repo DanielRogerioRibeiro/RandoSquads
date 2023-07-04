@@ -25,6 +25,13 @@ janela.geometry('390x500')
 janela.configure(background=co6)
 janela.resizable(width=FALSE, height=FALSE)
 
+
+#Criando o Frame Principal
+
+frame_principal = Frame(janela, width=390, height=500, bg=co6, relief="flat")
+frame_principal.grid(row=0, column=0, pady=1, padx=1, sticky=NSEW)
+
+
 # Função para criar grupos
 def gerar():
     global grupos_gerados
