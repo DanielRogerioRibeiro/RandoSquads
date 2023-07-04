@@ -17,6 +17,13 @@ co4 = "#403d3d"  # Letra
 co6 = "#003452"  # Azul
 co7 = "#ef5350"  # Vermelha
 
+#Criando Janela
+
+janela = Tk()
+janela.title("")
+janela.geometry('390x500')
+janela.configure(background=co6)
+janela.resizable(width=FALSE, height=FALSE)
 
 # Função para criar grupos
 def gerar():
