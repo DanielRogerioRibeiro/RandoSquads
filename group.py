@@ -25,6 +25,9 @@ janela.geometry('390x500')
 janela.configure(background=co6)
 janela.resizable(width=FALSE, height=FALSE)
 
+#Criando o Estilo e tema da Janela
+style = ttk.Style(janela)
+style.theme_use("clam")
 
 #Criando o Frame Principal
 
