@@ -34,6 +34,10 @@ style.theme_use("clam")
 frame_principal = Frame(janela, width=390, height=500, bg=co6, relief="flat")
 frame_principal.grid(row=0, column=0, pady=1, padx=1, sticky=NSEW)
 
+#Criando o Frame Top
+
+frame_top = Frame(frame_principal, width=390, height=150, bg=co6, relief="flat")
+frame_top.grid(row=0, column=0, pady=1, padx=1, sticky=NSEW)
 
 # Função para criar grupos
 def gerar():
