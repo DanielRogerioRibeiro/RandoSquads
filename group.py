@@ -39,6 +39,11 @@ frame_principal.grid(row=0, column=0, pady=1, padx=1, sticky=NSEW)
 frame_top = Frame(frame_principal, width=390, height=150, bg=co6, relief="flat")
 frame_top.grid(row=0, column=0, pady=1, padx=1, sticky=NSEW)
 
+#Criando Frame Resultado
+
+frame_resultado = Frame(frame_principal, width=390, height=100, bg=co6, relief="flat")
+frame_resultado.grid(row=1, column=0, pady=1, padx=1, sticky=NSEW)
+
 # Função para criar grupos
 def gerar():
     global grupos_gerados
